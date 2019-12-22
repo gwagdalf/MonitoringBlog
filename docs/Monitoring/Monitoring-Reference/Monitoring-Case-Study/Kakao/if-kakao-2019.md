@@ -10,6 +10,8 @@ Neo from matrix<br/>
 ##### 1. TPS/Response time(Error rate %) 이 나오는 Topology
 > * __215 TPS / Response time 14.0ms (Error rate 0.09%)__ 의 정보가 Topology 화면에 효과적으로 표시 됩니다.
 * Service Grouping 도 지원하는 것으로 추정합니다.<br/>
+
+
 ![Topology-1](https://raw.githubusercontent.com/gwagdalf/images/master/MonitoringBlog/Monitoring/Monitoring-Reference/Monitoring-Case-Study/Kakao/neo-topology-1.png)
 
 ##### 2. Observability
@@ -24,7 +26,8 @@ Observability is the ability to infer internal states of a system based on the s
 
 ##### 3. Adaptive Sampling 
 > * __응답시간별 샘플링__ : agent 에서 response time 이 빠른 건은 적게 샘플링하고, response time 이 느린건은 많이 샘플링 합니다.
-* 예상컨데, Application 에서는 interceptor 가 100% 실행되고, agent -> collector 로 보낼때 sampling 이 적용되는 것으로 추정합니다. cpu 는 희생하고, network 부하 감소를 위한 sampling 방법으로 추정합니다.<br/>
+> * 예상컨데, Application 에서는 interceptor 가 100% 실행되고, agent -> collector 로 보낼때 sampling 이 적용되는 것으로 추정합니다. cpu 는 희생하고, network 부하 감소를 위한 sampling 방법으로 추정합니다.<br/>
+
 ![응답시간별 샘플링](https://raw.githubusercontent.com/gwagdalf/images/master/MonitoringBlog/Monitoring/Monitoring-Reference/Monitoring-Case-Study/Kakao/neo-horizontal-sampling.png)
 
 * vertical sampling 은 window 기법으로 특정 시간대만 sampling 하는 방법을 사용한 듯 합니다. 위의 응답시간별 샘플링은 network 부하를 경감하기 위한 방법이라면, vertical sampling 은 cpu/memory 부하를 경감하기 위한 sampling 으로 보입니다. 순서상으로는
@@ -45,7 +48,7 @@ Observability is the ability to infer internal states of a system based on the s
   
 | Transaction Window(X-view) | Active Transaction | Response Time |
 |:--------|:--------:|:--------:|
-|  | Visitor Count  | TPS |
+| Transaction Window(X-view) | Visitor Count  | TPS |
 
 | CPU(node)  | Process Cpu(pod) | Memory | Used Heap |
 |:--------|:--------:|:--------:|:--------:|
@@ -68,7 +71,7 @@ Observability is the ability to infer internal states of a system based on the s
 * High performance __writing__
   - __WRITE__ > read
 * Scalibility
-  - idc 지원 -> dc=pg|gs,   pg 판교, gs 가산<br/>
+  - idc 지원 -> dc=pg\|gs,  pg 판교, gs 가산<br/>
   
 ![cassandra idc properties](https://raw.githubusercontent.com/gwagdalf/images/master/MonitoringBlog/Monitoring/Monitoring-Reference/Monitoring-Case-Study/Kakao/neo-cassandra-idc-properties.png)<br/>  
   
@@ -83,6 +86,7 @@ Observability is the ability to infer internal states of a system based on the s
 <img src="https://raw.githubusercontent.com/gwagdalf/images/master/MonitoringBlog/Monitoring/Monitoring-Reference/Monitoring-Case-Study/Kakao/neo-cassandra-disk-io-issue-2.png" width="650px" alt="cassandra disk io issue 2" /><br/>
  
 
+----
 ### KEMI - efk
 NEO 에서 너무 많은 시간을 사용해서, KEMI 쪽은 나중에 다시 정리해야 되겠습니다.
 
@@ -116,7 +120,7 @@ NEO 에서 너무 많은 시간을 사용해서, KEMI 쪽은 나중에 다시 �
 ##### NEO apm
 [카카오 애플리케이션 모니터링 NEO apm pdf 2019](https://mk.kakaocdn.net/dn/if-kakao/conf2019/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C_2019/T05-S05.pdf)
 
-[카카오 애플리케이션 모니터링 NEO apm mp4](https://mk-v1.kakaocdn.net/dn/if-kakao/conf2019/conf_video_2019/1_105_05_m1.mp4)
+[카카오 애플리케이션 모니터링 NEO apm mp4 2019](https://mk-v1.kakaocdn.net/dn/if-kakao/conf2019/conf_video_2019/1_105_05_m1.mp4)
 
 ##### if kakao 2019
 [if kakako 2019 program](https://if.kakao.com/2019/program) 

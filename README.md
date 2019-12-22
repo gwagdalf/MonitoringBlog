@@ -31,7 +31,7 @@
 
 #### 타사 모니터링 사례조사
 ##### Kakao
-###### [if kakao 2019 - Neo & Kemi](https://gwagdalf.github.io/MonitoringBlog/docs/Monitoring/Monitoring-Reference/Monitoring-Case-Study/Kakao/if-kakao-2019.md)
+###### [if kakao 2019 - Neo & Kemi](https://gwagdalf.github.io/MonitoringBlog/docs/Monitoring/Monitoring-Reference/Monitoring-Case-Study/Kakao/if-kakao-2019)
 ###### Naver
 ###### AWS
 ###### Azure
