@@ -1,6 +1,6 @@
 # Event Management 에 대한 관점
 
-## My Event Management
+
 ##### 연 중 Shopping Event Schedule 정의
 <img src="https://raw.githubusercontent.com/gwagdalf/images/master/MonitoringBlog/Event-Management/My-Point-of-View-about-Event-Management/event-schedule.png" width="550px" title="Shopping Event Schedule" alt="RubberDuck"/><br/>
 
