@@ -8,13 +8,13 @@
 
 ### Logging
 ###### ELK
-***	
+
 ### Metrics
 ###### Actuator
 ###### Micrometer
 ###### Prometheus
 ###### Grafana
-***	
+	
 ### Trace & Topology
 ###### Pinpoint
 ###### Zipkin
@@ -25,7 +25,7 @@
 ###### Scouter
 ###### Uber jvm-profiler
 ###### FlameGraph		
-***	
+	
 ### Monitoring Reference
 #### [link 모음](https://gwagdalf.github.io/MonitoringBlog/docs/Monitoring/Monitoring-Reference/link/link)
 
