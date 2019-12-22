@@ -1,4 +1,4 @@
-# My point of view about monitoring tools
+# 모니터링에 대한 나의 관점
 ## 모니터링 구분
 ![Error-Metric-Trace](https://peter.bourgon.org/img/instrumentation/01.png)
 
@@ -23,7 +23,7 @@ deep dive 하여, 미세한 병목구간을 찾을 때 사용합니다. 또 api 
 
 ---
 ## 선호하는 모니터링 툴
-![Preferred Monitoring Tool](/images/Monitoring/My-Point-of-View-about-Monitoring/Preferred-Monitoring-Tool.png)
+![Preferred Monitoring Tool](https://raw.githubusercontent.com/gwagdalf/MonitoringBlog/master/images/Monitoring/My-Point-of-View-about-Monitoring/Preferred-Monitoring-Tool.png)
 
 [선호하는 모니터링 툴 google spread](https://docs.google.com/spreadsheets/d/1iaYxSQeSABVhddA3FoWU5kT9p-inykbiIME-utEszrs/edit?folder=10aSBCu8RSMjiyaU7w8HUlJjZBtlQAJQT#gid=0)
 
