@@ -23,7 +23,7 @@ deep dive 하여, 미세한 병목구간을 찾을 때 사용합니다. 또 api 
 
 ---
 ## 선호하는 모니터링 툴
-![Preferred Monitoring Tool](https://raw.githubusercontent.com/gwagdalf/MonitoringBlog/master/images/Monitoring/My-Point-of-View-about-Monitoring/Preferred-Monitoring-Tool.png)
+![Preferred Monitoring Tool](https://raw.githubusercontent.com/gwagdalf/images/master/MonitoringBlog/Monitoring/My-Point-of-View-about-Monitoring/Preferred-Monitoring-Tool.png)
 
 [선호하는 모니터링 툴 google spread](https://docs.google.com/spreadsheets/d/1iaYxSQeSABVhddA3FoWU5kT9p-inykbiIME-utEszrs/edit?folder=10aSBCu8RSMjiyaU7w8HUlJjZBtlQAJQT#gid=0)
 

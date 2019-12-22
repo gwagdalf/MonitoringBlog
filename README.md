@@ -46,7 +46,7 @@
 
 ---------------------------------------
 # Event Management
-###### My Point of View about Event Management
+#### [Event Management 에 대한 관점](https://gwagdalf.github.io/MonitoringBlog/docs/Event-Management/My-Point-of-View-about-Event-Management/My-Point-of-View-about-Event-Management)
 
 ---------------------------------------
 # Semina Review
