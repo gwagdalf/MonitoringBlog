@@ -28,3 +28,8 @@ Alibaba 11.11 광군절의 발전 단계
 <img src="https://raw.githubusercontent.com/gwagdalf/images/master/MonitoringBlog/Event-Management/My-Point-of-View-about-Event-Management/alicloud-event-management-service-3.png" width="550px" title="Alibaba Event Management" alt="RubberDuck"/><br/>
 
 <img src="https://raw.githubusercontent.com/gwagdalf/images/master/MonitoringBlog/Event-Management/My-Point-of-View-about-Event-Management/alicloud-event-management-service-4.png" width="550px" title="Alibaba Event Management" alt="RubberDuck"/><br/>
+
+
+---------------
+#### Reference Link
+http://www.mktg.co.kr/alibaba/191210ABBKCF/download/3_AlibabaCloud_RaymondXiao.pdf
